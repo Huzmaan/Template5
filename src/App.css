@@ -1,0 +1,59 @@
+.body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Inconsolata", sans-serif;
+}
+.Header-css{
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.Header-text{
+  color: #fff;
+  text-decoration: none;
+  padding:8px 16px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Inconsolata", sans-serif;
+}
+.Header-text:hover{
+  background-color:#ccc;
+  color: #000000
+}
+.Main-css{
+  background-image:  url("./Images/coffeehouse.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 416px;
+  width: 100%;
+   display: flex;
+   justify-content: space-between;
+   background-repeat: no-repeat;
+   align-items: flex-end;
+}
+.Main-text{
+ background-color: #000000;
+ color: #fff;
+ padding-left: 8px;
+ padding-right: 8px; 
+ margin-left: 8px; 
+ }
+.Main-text2{
+  color: #fff;
+  padding-right: 8px;
+
+}
+.Main-text1{
+  color: #fff;
+  font-weight: 400;
+  font-size:xx-large;
+  text-align: center;
+}
+.Main{
+  display: flex;
+  align-items: flex-start;
+}
