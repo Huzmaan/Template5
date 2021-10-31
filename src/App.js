@@ -4,6 +4,8 @@ import Header from './Components/Header';
 import Main from './Components/Main';
 import About from './Components/About';
 import Menu from './Components/Menu';
+import Where from './Components/Where';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
      <Main />
      <About />
      <Menu/>
+     <Where/>
+     <Footer/>
    </div>
   );
 }

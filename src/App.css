@@ -28,7 +28,7 @@
   color: #000000
 }
 .Menu-text:hover{
-  background-color: #ccc;
+  background-color: #616161!important;
   color: #000000;
 }
 .Main-css{
@@ -42,6 +42,7 @@
    background-repeat: no-repeat;
    align-items: flex-end;
    filter: grayscale(75%);
+   
 }
 .Main-text{
  background-color: #000000;
@@ -65,7 +66,7 @@
   display: flex;
   align-items: flex-start;
 }
-.MainAbout-css,.MainMenu-css{
+.MainAbout-css,.MainMenu-css,.MainWhere-css{
   max-width: 700px;
   margin-right: auto;
   margin-left:auto;
@@ -74,12 +75,12 @@
   /* background-color: #fdf5e6!important; */
   color: #000000;
 }
-.AboutHeading-css,.MenuHeading-css{
+.AboutHeading-css,.MenuHeading-css,.WhereHeading-css{
   padding-top: 16px;
   padding-bottom:16px;
   text-align: center;
 }
-.AboutHeadingText-css,.MenuHeadingText-css{
+.AboutHeadingText-css,.MenuHeadingText-css,.WhereHeadingText-css{
   padding-left: 8px;
   padding-right: 8px;
   background-color:#000000;
@@ -87,7 +88,7 @@
   font-size: 20px;
     font-weight: 400;
 }
-.ImageAbout-css,.ImageMenu-css{
+.ImageAbout-css,.ImageMenu-css,.ImageWhere-css{
  width: 100%;
 }
 .AboutContainer-css{
@@ -116,6 +117,9 @@
   border: 3px solid #ccc;
   padding:8px;
   margin-bottom: 25px;
+  line-height: 1.5;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 .Menu-title{
   font-weight: 400;
@@ -124,4 +128,35 @@
 }
 .Menu-description{
   color:#757575!important;
+}
+.Text{
+  background-color:#000000;
+  color: #ffff;
+  padding-left:8px;
+  padding-right: 8px;
+  font-weight: 400;
+}
+.btn-css{
+ background-color: #000000;
+ color: #ffff;
+ /* padding-left: 8px; */
+ /* padding-right: 8px; */
+ padding: 16px;
+ font-size: 15px;
+}
+.inp-text-css{
+  width: 100%;
+  padding-top:32px;
+  padding-bottom: 32px;
+  font-size:15px;
+}
+.MainFooter-css{
+  background-color: #f1f1f1!important;
+  padding:64px;
+  text-align: center;
+  margin-top:20px
+}
+.FooterText-css{
+  color: #000000;
+  text-decoration: none;
 }
