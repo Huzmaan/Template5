@@ -10,12 +10,12 @@ const Menu = () => {
           <span className="MenuHeadingText-css">THE MENU</span>
         </h5>
         <div className="MenuChart-css">
-          <a onClick={()=>SetCurrentId(true)}    className="Menu-text">
+          <p onClick={()=>SetCurrentId(true)}    className="Menu-text">
             Eat
-          </a>
-          <a  onClick={()=>SetCurrentId(false)} className="Menu-text">
+          </p>
+          <p  onClick={()=>SetCurrentId(false)} className="Menu-text">
             Drink
-          </a>
+          </p>
         </div>
         <div className="Menu-css">
          {currentId ? <div id="Eat">
