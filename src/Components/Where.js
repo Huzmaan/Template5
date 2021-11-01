@@ -2,8 +2,6 @@ import React from "react";
 import Map from "../Images/map.jpg";
 
 const Where = () => {
-//     const [date, setDate] = useState("11/16/2020 08:00 PM");
-// console.log(date)
   return (
     <div className="container-css">
       <div className="MainWhere-css " id="Where">
@@ -48,9 +46,6 @@ const Where = () => {
                required
                name="date"
               placeholder="Date and time"
-            //   onChange={(e)=>{setDate(e.target.value)}
-            // }
-            // value={date}
             value="2020-11-16T20:00"
             min="2020-11-16T20:00"
             />
