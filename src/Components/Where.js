@@ -20,7 +20,7 @@ const Where = () => {
           <strong> Reserve</strong> a table, ask for today's special or just
           send us a message:{" "}
         </p>
-        <form>
+        <form className="form-css">
           <p>
             <input
               className="inp-text-css"

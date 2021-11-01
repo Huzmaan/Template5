@@ -72,6 +72,8 @@
   margin-left:auto;
   font-size: 18px;
   color: #000000;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .AboutHeading-css,.MenuHeading-css,.WhereHeading-css{
   padding-top: 16px;
@@ -155,6 +157,9 @@
 .FooterText-css{
   color: #000000;
   text-decoration: none;
+}
+.form-css{
+  margin: 10px;
 }
 @media only screen and (max-width:600px){
   .Main-text{
